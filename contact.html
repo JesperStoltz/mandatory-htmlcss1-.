@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+   <link rel="stylesheet" href="flexmall.css">
+   <title></title>
+ </head>
+  <body>
+
+    <header>
+      <div class="title">
+        <h1>Jesper Stoltz</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="fav_movies.html">Favourite Movies</a>
+        <a href="links.html">Links</a>
+        <div class="active"<a href="contact.html">Contact</a></div>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <form action="http://www.google.com" target="_blank">
+  <fieldset>
+    <Legend><h1>Contact</h1></legend>
+    <label for="name">Name:</label>
+    <br>
+      <input type="text" name="name" value="Your name" onfocus="this.value=''" required style=width:300px
+             pattern="[A-Öa-ö]{}" title="In this field you can only use letters.";>
+    <br>
+    <label for="mail">E-mail:</label>
+    <br>
+      <input type="email" name="mail" value="Your e-mail" onfocus="this.value=''" required style=width:300px
+             pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-z]{2,3}$">
+    <br>
+    <label for="options">Subject:</label>
+    <br>
+      <select name="options" required>
+        <option disabled="disabled" selected="selected">Select a subject</option>
+        <option value="highest_grade">Highest grade</option>
+        <option value="lowest_grade">Lowest grade</option>
+        <option value="acting">Acting</option>
+        <option value="other">Other</option>
+      </select>
+      <br><br>
+      <textarea name="message" required rows="8" cols="30" onfocus="this.value=''">
+      </textarea>
+      <br>
+    <input type="submit" value="Send" style="width: 100px";>
+    <input type="reset" value="Reset" style="width: 100px";>
+    <p>All fields required</p>
+  </fieldset>
+</form>
+      </article>
+    </main>
+
+    <footer>
+      <p>Jesper Stoltz</p>
+      <br><a href="callto:0046706048474">0706-048474</a>
+      <br><a href="mailto:jesper.stoltz@gmail.com?Subject=Hello%20there" target="_top">Jesper.stoltz@gmail.com</a>
+      <span>© EC Utbildningar</span>
+    </footer>
+
+  </body>
+ </html>
